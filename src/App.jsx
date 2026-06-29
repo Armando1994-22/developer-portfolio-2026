@@ -358,20 +358,46 @@ export default function App() {
           transition: 'transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease, border-color 0.3s ease'
         }}
       >
+        {/* Luxury Cosmetics Pink/Purple Top Gradient Accent Bar */}
         <div style={{ height: '4px', width: '100%', background: 'linear-gradient(90deg, #ec4899, #a855f7)' }}></div>
         <div style={{ padding: '30px', display: 'flex', flexDirection: 'column', flexGrow: 1 }}>
-          <h3 style={{ fontSize: '1.4rem', marginBottom: '12px', fontWeight: '700', color: '#fff' }}>Cosmetics & Salon Storefront</h3>
+          <h3 style={{ fontSize: '1.4rem', marginBottom: '12px', fontWeight: '700', color: '#fff' }}>
+            Vanilla Permanente Cosmetics
+          </h3>
           <p style={{ color: '#94a3b8', fontSize: '0.95rem', lineHeight: '1.6', marginBottom: '24px', flexGrow: 1 }}>
-            Sleek retail display featuring fast client category sorting filters, relational database records for individual stylists, and a responsive shopping checkout drawer.
+            Full-stack clinical booking platform built with defensive async state handling, dynamic calendar mapping, and real-time backend scheduling validations.
           </p>
+          
+          {/* Updated Production Tech Badges */}
           <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginBottom: '24px' }}>
-            {['React 19', 'Vite', 'Dynamic Arrays', 'CSS Grid'].map(tech => (
+            {['React', 'Vite', 'Supabase', 'Tailwind CSS'].map(tech => (
               <span key={tech} style={{ backgroundColor: 'rgba(236, 72, 153, 0.1)', color: '#f472b6', border: '1px solid rgba(236, 72, 153, 0.2)', padding: '4px 10px', borderRadius: '6px', fontSize: '0.8rem', fontWeight: '500' }}>{tech}</span>
             ))}
           </div>
-          <div style={{ backgroundColor: '#1f2937', color: '#f472b6', border: '1px solid rgba(236, 72, 153, 0.3)', textAlign: 'center', padding: '12px', borderRadius: '8px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '6px', fontSize: '0.95rem', fontWeight: '600' }}>
-            Production Phase
-          </div>
+          
+          {/* 🌸 Fixed: Active Outbound Pink Theme Cosmetics Demo Button */}
+          <a 
+            href="https://vercel.app" // ⚠️ Paste your actual Cosmetics app Vercel URL here
+            target="_blank" 
+            rel="noopener noreferrer" 
+            style={{ 
+              backgroundColor: '#ec4899', // 👈 Changed to matching cosmetics pink accent
+              color: '#fff', 
+              textAlign: 'center', 
+              padding: '12px', 
+              borderRadius: '8px', 
+              textDecoration: 'none', 
+              display: 'inline-flex', 
+              alignItems: 'center', 
+              justifyContent: 'center', 
+              gap: '8px', 
+              fontWeight: '600', 
+              fontSize: '0.95rem', 
+              boxShadow: '0 4px 14px rgba(236, 72, 153, 0.4)' // 👈 Pink glowing box shadow
+            }}
+          >
+            Launch App Demo <ExternalLink size={16} />
+          </a>
         </div>
       </div>
       

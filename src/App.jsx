@@ -377,11 +377,11 @@ export default function App() {
           
           {/* 🌸 Fixed: Active Outbound Pink Theme Cosmetics Demo Button */}
           <a 
-            href="https://vercel.app" // ⚠️ Paste your actual Cosmetics app Vercel URL here
+            href="https://salon-cosmetics-demo.vercel.app/" // ⚠️ Paste your actual Cosmetics app Vercel URL here
             target="_blank" 
             rel="noopener noreferrer" 
             style={{ 
-              backgroundColor: '#ec4899', // 👈 Changed to matching cosmetics pink accent
+              backgroundColor: '#ec4899', 
               color: '#fff', 
               textAlign: 'center', 
               padding: '12px', 
@@ -436,7 +436,7 @@ export default function App() {
               <span key={tech} style={{ backgroundColor: 'rgba(16, 185, 129, 0.1)', color: '#34d399', border: '1px solid rgba(16, 185, 129, 0.2)', padding: '4px 10px', borderRadius: '6px', fontSize: '0.8rem', fontWeight: '500' }}>{tech}</span>
             ))}
           </div>
-          <a href="https://my-developer-portfolio-lemon.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ backgroundColor: '#10b981', color: '#fff', textAlign: 'center', padding: '12px', borderRadius: '8px', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px', fontWeight: '600', fontSize: '0.95rem', boxShadow: '0 4px 12px rgba(16, 185, 129, 0.3)' }}>
+          <a href="https://developer-portfolio-2026.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ backgroundColor: '#10b981', color: '#fff', textAlign: 'center', padding: '12px', borderRadius: '8px', textDecoration: 'none', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px', fontWeight: '600', fontSize: '0.95rem', boxShadow: '0 4px 12px rgba(16, 185, 129, 0.3)' }}>
             View Legacy Site <ExternalLink size={16} />
           </a>
         </div>
